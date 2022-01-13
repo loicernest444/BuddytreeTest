@@ -1,0 +1,212 @@
+.send-post-card{
+    background-color: #7099AD;
+}
+
+.form-control-lg{
+    border: none !important;
+}
+
+.share-btn{
+    padding: 10px 30px;
+    border-radius: 100px;
+    background-color: #046696;
+    border: none !important;
+}
+
+.user-post{
+    display: flex;
+    align-items: start;
+    padding: 10px;
+}
+
+.braduis{
+    border-radius: 8px;
+}
+
+.user-avatar-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 2px solid white !important;
+    margin-right: 5px;
+}
+
+.icon-image{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top:8px;
+}
+
+
+.active{
+    border-bottom: 5px solid #046696;
+}
+
+
+.icon-image-sm{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+.user-post-message > p{
+    font-size: 18px;
+    color: #050505;
+    max-width: 800px;
+}
+
+.post-image{
+    border-radius: 0px;
+    max-width: 500px;
+}
+
+.post-pseudo{
+    font-size: 18px;
+    color: #817f7f;
+}
+
+.edit{
+    cursor: pointer;
+    color: #046696;
+    font-weight: bold !important;
+}
+
+.edit:hover{
+    color: #049646;
+}
+
+
+.write-comment{
+  background-color: #7099AD;
+  padding: 10px;
+  margin-left: 150px;
+  max-width: 500px;
+}
+
+/**
+* POST COMMENT CSS
+**/
+
+.user-post-comment{
+    display: flex;
+    margin-left: 150px;
+}
+
+.user-post-comment-message > p{
+    max-width: 500px;
+    background-color: #F0F2F5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.avatar-sm{
+    width: 50px;
+    height: 50px;
+}
+
+.image-sm{
+    max-width: 200px;
+}
+
+
+.user-post-comment-details{
+}
+
+/***
+* CSS PUBLIC SECTION
+**/
+
+.post-card{
+    background-color: white;
+}
+
+.card-img{
+    width: 300px;
+    height: 150px;
+}
+
+.post-card-details h1{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #046696;
+}
+
+.avatar-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+
+.sub-text{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.card-img-text{
+    position: relative;
+}
+
+.text-on-img{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    left: 10px;
+}
+
+.post-card{
+    margin-bottom: 5px;
+}
+
+.advice-post{
+    padding: 5px;
+    position: relative;
+}
+
+.advice-post-img{
+    width: 100%;
+    height: 200px;
+}
+
+.advice-content{
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+}
+
+.advice-content h1{
+    color: rgb(230, 230, 23);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.advice-content h2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:-8px;
+}
+
+.bg-white{
+    background-color:white;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .row-no-padding > [class*="col-"] {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+ }

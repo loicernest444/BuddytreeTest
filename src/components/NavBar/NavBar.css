@@ -1,0 +1,125 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.user-avatar{
+    height: 40px;
+    width:40px;
+    border-radius: 100px;
+}
+
+.user-name{
+    font-weight: bold;
+}
+
+.logo{
+    height: 40px;
+    width:40px;
+    font-weight: bold;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.munu p{
+    font-size: 20px;
+    padding: 0 35px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(112, 108, 108);
+}
+
+.munu{
+    background-color:white;
+}
+
+.munu p:hover{
+    color: #036894;
+}
+
+.logo-row{
+    font-weight: bold;
+    font-size: 35px;
+    color: #036894;
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .logo-row{
+        font-size: 20px;
+    }
+
+    .nav-bar{
+        padding: 10px !important;
+        padding-bottom:20px !important;
+    }
+
+  .card-img{
+    width:120px;
+  }
+
+
+  .post-card-details h1{
+     font-size: 18px;
+  }
+
+  .sub-text{
+      font-size: 14px;
+  }
+  
+
+  .munu p{
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+
+  /*HOME**/
+
+  .post-image{
+      width: 200px !important;
+  }
+
+  .user-post-message > p{
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 200px;
+  }
+
+  .user-avatar-circle{
+      width: 50px !important;
+      height: 50px !important;
+  }
+
+  .user-post-details{
+      margin-left: 2px !important;
+  }
+
+  .user-post-comment{
+    margin-left: 80px !important;
+  }
+
+  .avatar-sm{
+      width: 40px !important;
+      height: 40px !important;
+  }
+
+  .write-comment{
+      margin-left: 0px;
+      height: 100px;
+  }
+
+  .share-btn{
+      margin-left: -70px;
+  }
+
+  .container{
+      padding: 2px !important;
+  }
+}
